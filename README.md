@@ -1,6 +1,12 @@
-# 💻 Assignment Boilerplate
+# 💻 The Basics of HTML
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+Starter files for a coding exercise on common HTML elements and attributes. The four pages
+in this repo are plain, unmarked-up text. You will add the HTML structure, then publish the
+finished site to GitHub Pages.
+
+These pages are going to look plain in the browser, and that is fine — there is no CSS in
+this exercise. The point is to practice using HTML to give content structure and meaning.
+Styling comes later in the course.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
@@ -8,7 +14,7 @@ A starting point for assignment and exercise repos. It includes submission instr
 
 ## 📋 Assignment Requirements
 
-The requirements, grading criteria, and due date for this assignment are in
+The requirements, grading rubric, and due date for this assignment are in
 [ASSIGNMENT.md](ASSIGNMENT.md). Read it before you start, and check it again before
 you submit. This `README` only covers how to publish and submit your work.
 
@@ -21,17 +27,30 @@ you submit. This `README` only covers how to publish and submit your work.
    Name it something like `assignment` or `your-name`.
 3. Click **Open in \<editor\>** to open the folder in your code editor and start working.
 
+> [!IMPORTANT]
+> Open the whole project **folder** in your editor, not a single HTML file on its own.
+> This exercise uses images and links between files, and your editor can only resolve
+> those paths if it can see every file in the project.
+
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into subfolders:
+Every file you need is already in this repo. The four pages you are marking up are in the
+**root folder** — the same folder as this README. Edit them where they are.
 
 ```
 index.html
-css/style.css
-js/script.js
-images/photo.jpg
+common.html
+images.html
+links.html
+logo.png
+resources/
+  cat.jpg
+  otherpage.html
 ```
+
+Do not rename or move these files. You link between them by name, and `index.html` in
+particular has to keep its name and stay in the root folder — GitHub Pages publishes from
+the root and serves `index.html` as your home page. Rename it and your site will 404.
 
 ## 🤖 AI Policy
 
@@ -57,13 +76,35 @@ Your work has to be live on the web before you can submit it.
    ```
    https://<your-username>.github.io/<repo-name>/
    ```
-   Confirm the page loads correctly — the right content, no missing images, no broken styles.
+   Confirm the page loads correctly — the right content, no missing images, no broken links.
 
-**🛠️ Troubleshooting**
+**🛠️ Troubleshooting the deploy**
 
-- **404 page:** make sure an `index.html` exists in the root of the branch you selected, and that the filename is lowercase.
+- **404 page:** make sure `index.html` is still in the root of the branch you selected, still lowercase, and that you committed it.
 - **Old version showing:** Pages caches aggressively. Wait a minute, then hard refresh (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>).
 - **Nothing deployed:** check the **Actions** tab for a failed `pages build and deployment` run.
+- **Images or links work locally but break on Pages:** the live site is case-sensitive even
+  if your computer is not. `Logo.png` and `logo.png` are the same file on macOS and
+  Windows, but different files on GitHub Pages. Check that your `src` and `href` values
+  match the real filenames exactly.
+- **An image or page is missing from the live site:** confirm you actually committed it.
+  In GitHub Desktop, a file that never appeared in the **Changes** list was never pushed.
+
+**🛠️ Troubleshooting your HTML**
+
+If a page is not rendering the way you expect, check these first:
+
+- Did you save the file?
+- Is your content inside the `body` element?
+- Is every opening tag matched with a closing tag, in the right order?
+- Are your attribute values wrapped in quotation marks?
+- Is the file name — and its extension — spelled exactly right in your `src` or `href`?
+- Is the file actually in the folder your path says it is in?
+
+To a browser, `cat.jpg`, `Cat.jpg`, `cat.jpeg`, `resources/cat.jpg`, and `resource/cat.jpg`
+are five different things. The browser does not know what you meant; it follows exactly
+what you typed. If you want a second opinion on your markup, paste it into the
+[W3C validator](https://validator.w3.org/#validate_by_input).
 
 ## 📬 Submitting the Assignment
 

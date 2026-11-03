@@ -1,0 +1,54 @@
+
+
+<!-- Note: It's best to test this page in an actual browser because the VSCode preview window can't load external pages -->
+
+     
+Hyperlinks
+
+
+Links to other pages are created with the &lt;a&gt; element and the href attribute. The value of the href attribute is the page that you want people to go to when they click on the link. Users can click on anything that appears between the opening &lt;a&gt; tag and the closing &lt;/a&gt; tag and will be taken to the page specified in href.
+
+
+
+
+Absolute Links
+
+When you link to a completely different website you must use an absolute URL. That means the value of the href attribute will start with http:// and include the full web address for the site.
+
+
+This is a link to the University of Cincinnati web site
+
+
+
+
+Relative Links
+
+When you are linking to other pages within the same site, you do not need to specify the full domain name in the URL. You can use a relative URL which only contains the directions relative from this page to the one you are linking to. 
+
+
+The first page of this exercise was HTML Basics
+This is a link to a page within a subdirectory of the current folder
+
+
+
+
+Email Link
+
+The anchor element can also be used to create an e-mail hyperlink. An e-mail link will automatically launch the default mail program configured for the browser. The href value of an e-mail link starts with mailto: followed by the e-mail address.
+
+This is an example of an &#9993; e-mail link 
+
+
+
+Opening a Link in a New Window/Tab
+
+
+If you want a link to open in a new window or tab, you can use the "target" attribute with the value "_blank" on the opening &lt;a&gt; tag. You should avoid opening links in a new window if they're going to a different page within the same site. Only use it when sending someone to a compltely different web site. 
+
+<p>
+   I'm adding the <code>target="_blank"</code> attribute to this link so it will open in a new browser tab:<br>
+   <a href="https://www.reddit.com/r/uCinci/">University of Cincinnati Sub-Reddit</a>
+</p>
+
+
+
