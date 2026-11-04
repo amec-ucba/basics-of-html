@@ -17,7 +17,7 @@ Styling comes later in the course.
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading rubric, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the overview, a guide to the companion videos in Canvas, and a final checklist. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
 
