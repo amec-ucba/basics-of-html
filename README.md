@@ -14,15 +14,12 @@ Styling comes later in the course.
 
 ## 📋 Assignment Requirements
 
-The requirements, grading rubric, and due date for this assignment are in
-[ASSIGNMENT.md](ASSIGNMENT.md). Read it before you start, and check it again before
-you submit. This `README` only covers how to publish and submit your work.
+> [!IMPORTANT]
+> **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
+
+It has the requirements, grading rubric, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
-
-> [!IMPORTANT]
-> Don't clone this repo directly. Make your own copy from the template first (step 1), then
-> clone **your copy**. Work you push to anything other than your own repo won't be graded.
 
 1. **Create your own repo from this template.**
    - At the top of this repo on GitHub, click the green **Use this template** button. (If a
