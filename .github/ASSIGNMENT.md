@@ -26,7 +26,7 @@ use CSS to control the visual design, including colors, fonts, spacing, and layo
 
 By completing this exercise, you will practice how to:
 
-- Open a full project folder in Visual Studio Code
+- Open a full project folder in WebStorm
 - Use the basic HTML document structure
 - Use heading elements based on structure and importance
 - Mark up paragraphs, lists, abbreviations, line breaks, emphasized text, strong text,
@@ -40,21 +40,22 @@ By completing this exercise, you will practice how to:
 ## 🎬 Watch the Videos in Canvas and Follow Along
 
 The screencast videos are on this assignment's page in **Canvas**, not in this repo. They
-walk you through the entire exercise. Watch them **in order** and follow along in Visual Studio Code. Pause whenever you need time to finish a
+walk you through the entire exercise. Watch them **in order** and follow along in WebStorm. The videos were recorded in VS Code, so
+some menus look different, but the HTML is the same. Pause whenever you need time to finish a
 step — it is normal to pause, rewind, and rewatch parts of a coding demonstration.
 
 Each video builds on the previous one, so please don't skip ahead.
 
 | Video | What you will do |
 | --- | --- |
-| **Part 1 — Setting Up** | Get the starter files ready, organize your folder, and open the project in VS Code. |
+| **Part 1 — Setting Up** | Get the starter files ready, organize your folder, and open the project. The video uses VS Code; clone your repo in WebStorm instead, as described in the [Getting Started guide](GETTING_STARTED.md). |
 | **Part 2 — `index.html`** | Create the basic HTML page structure, add a page title, place visible content inside the `body`, and use headings and paragraphs. |
 | **Part 3 — `common.html`** | Use common text elements, including lists, list items, abbreviations, line breaks, strong text, emphasized text, highlighted text, and superscript text. |
 | **Part 4 — `images.html`** | Add images with the `img` element, use `src` and `alt` attributes, work with file paths, and add captions with `figure` and `figcaption`. |
 | **Part 5 — `links.html`** | Create hyperlinks with the `a` element and `href` attribute, link to websites and to files in your own project, and use `target="_blank"` when appropriate. |
 
 > [!IMPORTANT]
-> Open the entire project **folder** in VS Code, not a single HTML file. VS Code needs to
+> Open the entire project **folder** in WebStorm, not a single HTML file. WebStorm needs to
 > see every file and folder in the project for images, links, and file paths to work. Do
 > not delete or move any starter files unless a video tells you to.
 
