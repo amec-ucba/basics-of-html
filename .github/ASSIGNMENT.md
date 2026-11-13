@@ -59,6 +59,18 @@ Each video builds on the previous one, so please don't skip ahead.
 > see every file and folder in the project for images, links, and file paths to work. Do
 > not delete or move any starter files unless a video tells you to.
 
+## 🧮 Grading
+
+| Criteria | What earns full credit | Points |
+| --- | --- | --- |
+| **Document structure** | All four pages have a correct doctype, `html`, `head`, and `body`; all visible content is inside `body`; each page has its own meaningful `title`. | 2 |
+| **Headings and paragraphs** | `h1`/`h2`/`h3` reflect the real outline of each page rather than visual size; body text is in `p` elements. | 2 |
+| **`common.html` elements** | `ol`, `ul`, `li`, `abbr` with `title`, `br`, `pre`, `strong`, `u`, `mark`, and `sup` are all present and used on the content they describe. | 4 |
+| **Images and paths** | `logo.png` and `resources/cat.jpg` both display; `src` paths are correct; `alt` text is descriptive; `figure` wraps the cat image with a `figcaption` reading "Ivan". | 3 |
+| **Links** | Absolute, relative, subdirectory, and `mailto:` links are all present, correctly formed, and go to the right place. | 3 |
+| **Published and submitted** | GitHub Pages site is live and loads correctly; pull request into `main` is open with the live URL in the description; PR URL submitted in Canvas. | 1 |
+| **Total** |  | **15** |
+
 ## ✅ Before You Submit
 
 Check the following:
